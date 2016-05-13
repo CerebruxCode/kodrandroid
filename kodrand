@@ -1,0 +1,14 @@
+#!/bin/bash
+# Προγραμματάκι που παράγει τυχαίους κωδικούς
+# με βάση την ημερομηνία-ώρα-λεπτά-δευτερόλεπτα
+# Πηγή: http://cerebrux.net/2016/05/11/dimiourgia-tuxaion-kodikon-termatiko-dev-random
+# -------------cerebrux.net--------------------
+
+for apotelesma in `seq 1 5`
+    # Προβολή των 10 ψηφίων της /dev/urandom 
+    # απο 1 έως 5 φορές
+    do
+#        strings /dev/urandom | tr -d '[:blank:]' | head -n 5 | tr -d '\n'| head -c 10
+         strings /dev/urandom | head -n 5 | tr -d '[:blank:]' | tr -d '\n'| head -c 10
+        echo ""
+    done
