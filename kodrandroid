@@ -1,10 +1,11 @@
-#!/bin/bash
+#!/system/bin/sh
 # Προγραμματάκι που παράγει τυχαίους κωδικούς σε
 # τρεματικό με Android συσκευή με χρήση της /dev/urandom
 # Πηγή: http://cerebrux.net/2016/05/dimiourgia-tuxaion-kodikon-termatiko-android-dev-random/
 # -------------cerebrux.net--------------------
 
 # εμφάνισε ένα καλωσόρισμα 
+echo ""
 echo "####################"
 echo "# Καλωσήρθατε στο  #"
 echo "#   Kodrandroid    #"
